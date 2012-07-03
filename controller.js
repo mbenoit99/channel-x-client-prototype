@@ -1,3 +1,4 @@
+// Object to maintain the state of the current Program
 var ProgramStatus = {blockIndex: 0, itemIndex: 0, wait: 0, offset: 0, hasLoopedBlock: false};
 
 ProgramStatus.init = function ()
